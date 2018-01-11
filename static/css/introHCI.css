@@ -12,12 +12,24 @@
 .project {
      margin-left: 20px;
 }
+
+.centering{
+     text-align: center;
+}
+
+.topPad{
+     margin-top: 50px;
+}
+/*
+.fixed{
+     position: fixed;
+     top: 2%;
+} */
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
-body {
-     border: 1px dotted gray;
-     padding: 20px;
-}
+.font {
+     font-family: 'Open Sans', sans-serif; 
+} 
 
 .jumbotron {
 	position: relative;

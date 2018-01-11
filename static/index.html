@@ -5,7 +5,10 @@
 	<title>HCI Project Portfolio</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="css/introHCI.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/introHCI.css" >
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'  type='text/css'>
 	<!-- this is a comment in HTML -->
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -15,67 +18,88 @@
     <![endif]-->
 </head>
 
-<body>
+<body style="background-color: #FDF3E7">
 	<div>
 		<!-- h1 through h6 are headers. The higher the number, the smaller the header -->
 		<!-- p means paragraph -->
-		<div>
-			<h1>Timothy Bian</h1>
-			<p>3rd Year Math-Computer Science Student &middot; Aspiring Software Engineer &middot; Automation Studio </p>
-		</div>
-
-
-		<h4>Projects</h4>
 		<!-- divs are invisible structuring elements that stack vertically by default. Use them to organize your code -->
 		<!-- img tags are images. Lorem Pixel will deliver random images; handy! -->
 		<!-- a are anchors, also known as hyperlinks. Use the href attribute to tell the browser where to go when the user clicks -->
-		<div class="project" id="project1">
-			<a href="project.html">
-				<img src="images/lorempixel.people.1.jpeg" alt="Lorem Pixel image">
-				<p>Waiting in Line</p>
-			</a>
-		</div>
-		<div class="project" id="project2">
-			<a href="project.html">
-				<img src="images/lorempixel.city.1.jpeg" alt="Lorem Pixel image">
-				<p>Needfinding</p>
-			</a>
-		</div>
-		<div class="project" id="project3">
-			<a href="project.html">
-				<img src="images/lorempixel.technics.1.jpeg" alt="Lorem Pixel image">
-				<p>Prototyping</p>
-			</a>
-		</div>
-		<div class="project" id="project4">
-			<a href="project.html">
-				<img src="images/lorempixel.abstract.1.jpeg" alt="Lorem Pixel image">
-				<p>Heuristic Evaluation</p>
-			</a>
-		</div>
-		<div class="project" id="project5">
-			<a href="project.html">
-				<img src="images/lorempixel.abstract.8.jpeg" alt="Lorem Pixel image">
-				<p>Visualization</p>
-			</a>
-		</div>
-		<div class="project" id="project6">
-			<a href="project.html">
-				<img src="images/lorempixel.people.2.jpeg" alt="Lorem Pixel image">
-				<p>Social design</p>
-			</a>
-		</div>
-		<div class="project" id="project7">
-			<a href="project.html">
-				<img src="images/lorempixel.technics.2.jpeg" alt="Lorem Pixel image">
-				<p>Gestural interaction</p>
-			</a>
-		</div>
-		<div class="project" id="project8">
-			<a href="project.html">
-				<img src="images/lorempixel.city.2.jpeg" alt="Lorem Pixel image">
-				<p>Design tools</p>
-			</a>
+
+		<div class="container-fluid font">
+			<div class="sticky-top" id="row0">
+				<div class="col-sm-6 col-sm-offset-3 centering">
+					<h1 style="font-family: 'Open Sans', sans-serif">Timothy Bian</h1>
+					<p>3rd Year Math-Computer Science Student &middot; Aspiring Software Engineer &middot; Automation Studio </p>
+					<h4 style="font-family: 'Open Sans', sans-serif">Projects</h4>
+				</div>
+				<div class="col-sm-3 col-sm-offset-9">
+				</div>
+			</div>
+
+			<div class="row" id="row1" >
+				<div class="col-sm-4" id="project1" >
+					<a href="project.html">
+						<img src="images/lorempixel.people.1.jpeg" alt="Lorem Pixel image" class="img-responsive">
+						<p>Waiting in Line</p>
+					</a>
+				</div>
+
+		    	<div class="col-sm-4 col-sm-offset-4" id="project2">
+					<a href="project.html">
+						<img src="images/lorempixel.city.1.jpeg" alt="Lorem Pixel image" class="img-responsive">
+						<p>Needfinding</p>
+					</a>
+				</div>
+			</div>
+
+			<div class="row" id="row2">
+				<div class="col-sm-4" id="project3">
+					<a href="project.html">
+						<img src="images/lorempixel.technics.1.jpeg" alt="Lorem Pixel image" class="img-responsive">
+						<p>Prototyping</p>
+					</a>
+				</div>
+
+				<div class="col-sm-4 col-sm-offset-4" id="project4">
+					<a href="project.html">
+						<img src="images/lorempixel.abstract.1.jpeg" alt="Lorem Pixel image" class="img-responsive">
+						<p>Heuristic Evaluation</p>
+					</a>
+				</div>	
+			</div>
+
+			<div class="row" id="row3">
+				<div class="col-sm-4" id="project5">
+					<a href="project.html">
+						<img src="images/lorempixel.abstract.8.jpeg" alt="Lorem Pixel image" class="img-responsive">
+						<p>Visualization</p>
+					</a>
+				</div>
+
+				<div class="col-sm-4 col-sm-offset-4" id="project6">
+					<a href="project.html">
+						<img src="images/lorempixel.people.2.jpeg" alt="Lorem Pixel image" class="img-responsive">
+						<p>Social design</p>
+					</a>
+				</div>
+			</div>
+
+			<div class="row" id="row4">
+				<div class="col-sm-4" id="project7">
+					<a href="project.html">
+						<img src="images/lorempixel.technics.2.jpeg" alt="Lorem Pixel image" class="img-responsive">
+						<p>Gestural interaction</p>
+					</a>
+				</div>
+
+				<div class="col-sm-4 col-sm-offset-4" id="project8">
+					<a href="project.html">
+						<img src="images/lorempixel.city.2.jpeg" alt="Lorem Pixel image" class="img-responsive">
+						<p>Design tools</p>
+					</a>
+				</div>
+			</div>
 		</div>
 	</div>
 </body>
