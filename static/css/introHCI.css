@@ -17,8 +17,12 @@
      text-align: center;
 }
 
-.topPad{
-     margin-top: 50px;
+.row{
+     margin-top: 5px;
+}
+
+.colored{
+     color:white;
 }
 /*
 .fixed{
